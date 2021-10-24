@@ -21,7 +21,7 @@ void main()
 	P = AB + BC + AC;
 	printf("P = ");
 	printf("%f\n", P);
-	S = (sqrt(P * (P - AC) * (P - BC) * (P - AC)));
+	S = (sqrt(P/2 * (P/2 - AC) * (P/2 - BC) * (P/2 - AB)));
 	printf("S = ");
 	printf("%f\n", S);
 
